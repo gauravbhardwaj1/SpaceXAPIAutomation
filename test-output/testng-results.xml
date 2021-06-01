@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5202" started-at="2021-06-01T18:20:27 IST" finished-at="2021-06-01T18:20:32 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5202" started-at="2021-06-01T18:20:27 IST" finished-at="2021-06-01T18:20:32 IST">
+      <class name="SpaceXAutomation.SpaceXAPIAutomation.VerifyLatestAPI">
+        <test-method status="PASS" signature="verifyStatus()[pri:0, instance:SpaceXAutomation.SpaceXAPIAutomation.VerifyLatestAPI@3224f60b]" name="verifyStatus" duration-ms="2283" started-at="2021-06-01T18:20:27 IST" finished-at="2021-06-01T18:20:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatus -->
+        <test-method status="PASS" signature="verifyBody()[pri:0, instance:SpaceXAutomation.SpaceXAPIAutomation.VerifyLatestAPI@3224f60b]" name="verifyBody" duration-ms="1563" started-at="2021-06-01T18:20:30 IST" depends-on-methods="SpaceXAutomation.SpaceXAPIAutomation.VerifyLatestAPI.verifyStatus" finished-at="2021-06-01T18:20:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBody -->
+        <test-method status="PASS" signature="verifyHeaders()[pri:0, instance:SpaceXAutomation.SpaceXAPIAutomation.VerifyLatestAPI@3224f60b]" name="verifyHeaders" duration-ms="1331" started-at="2021-06-01T18:20:31 IST" depends-on-methods="SpaceXAutomation.SpaceXAPIAutomation.VerifyLatestAPI.verifyStatus" finished-at="2021-06-01T18:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+      </class> <!-- SpaceXAutomation.SpaceXAPIAutomation.VerifyLatestAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
